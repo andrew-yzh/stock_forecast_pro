@@ -2,6 +2,7 @@
 
 **QuantForecast** is a modular machine learning pipeline designed to forecast equity price movements and evaluate trading strategies through rigorous backtesting. Moving beyond static notebooks, this project implements a production-style architecture featuring automated data ingestion, advanced feature engineering, and a stateful trading engine.
 
+![Dashboard Sample](screenshots/pltr_dash.png)
 ---
 
 ##  Key Features
@@ -12,6 +13,12 @@
 * **Stateful Backtesting:** A custom-built engine that simulates realistic trading scenarios, tracking cash, share positions, and cumulative equity growth.
 * **Institutional Metrics:** Automated calculation of the **Sharpe Ratio**, **Maximum Drawdown**, and **Directional Accuracy**.
 * **Interactive Dashboard:** A professional UI built with **Streamlit** and **Plotly** for real-time visual analysis of performance vs. market baselines.
+
+<p align="center">
+  <img src="screenshots/price_goog.png" width="45%" />
+  <img src="screenshots/backtest_goog.png" width="45%" />
+</p>
+
 
 ---
 
